@@ -30,7 +30,7 @@ valid_proxy = []
 def prox():
   print('''
 [1] Ambil proxy dari situs (free-proxy-list.com)
-[2] Ambil proxy dari situs (free-proxy-list.net)[\033[92mDisarankan\033[0m]
+[2] Ambil proxy dari situs (free-proxy-list.net)
 [3] Dari file
   ''')
   ask = int(
