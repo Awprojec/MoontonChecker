@@ -9,10 +9,7 @@
 # Name           : Moonton Account Checker                 #
 # File           : moonton.py                              #
 # Author         : DulLah                                  #
-# Github         : https://github.com/dz-id                #
-# Facebook       : https://www.facebook.com/dulahz         #
-# Telegram       : https://t.me/DulLah                     #
-# Python version : 3.7++                                   #
+# Github         : https://github.com/Awprojec             #
 ############################################################
 
 import os, sys, hashlib, json, random, re
@@ -63,13 +60,14 @@ class MOONTON:
     self.loop = 0
     print('''\033[0m
 
-|V| _  _ __ _|_ _ __    /  |_  _  _  |  _  __
-| |(_)(_)| | |_(_)| |   \__| |(/_(_  |<(/_ |
+@     @   #   $    $  &&&&& !!  !   ^^^^
+@  @  @  ###    $$    &&    ! ! !  ^ ^^^
+@@   @@ #   #    $    &&&&& !  !!   ^^^
 ---------------------------------------------
-          - Created By (DulLah) -
+  >>> - Created By (Abadi_Wayenk) -<<<
 ---------------------------------------------\n''')
 ##########################################
-# Please don't remove the author name :( #
+# Jangan Ubah Nama Gua COEK!!! :( #
 ##########################################
 
   def auto_upper(self, string):
@@ -106,10 +104,10 @@ class MOONTON:
 
   def main(self):
     print(
-      '[!] Pemisah email:password atau email|password\n'
+      '[!] Pemisah email:password TOLOL\n'
     )
     empas = input(
-      '[?] List empas (ex: list.txt): '
+      '[?] Isi empasnya (ex: list.txt): '
     )
     if os.path.exists(
       empas
@@ -183,7 +181,7 @@ class MOONTON:
           '[!] Empas tidak ada atau tidak valid pastikan berformat email:pass atau email|pass'
         )
       print(
-        '[*] Total {0} account'.format(
+        '[*] Total {0} akun'.format(
           str(
             len(
               self.userdata
@@ -192,7 +190,7 @@ class MOONTON:
         )
       )
       ask = input(
-        '[?] Apakah ingin menggunakan proxy?(\033[92mDisarankan\033[0m) [Y/t]: '
+        '[?] Apakah ingin menggunakan proxy? [Y/t]: '
       )
       if ask.lower(
       ).strip(
@@ -345,9 +343,9 @@ class MOONTON:
           'message'
          ] == 'Error_Success':
           print(
-            '\r[\033[92mLIVE\033[0m] '+user[
+            '\r[\033[92mOKE\033[0m] '+user[
               'userdata'
-             ]+' -> (\033[92mSuccess login\033[0m)'
+             ]+' -> (\033[92mResult Boss\033[0m)'
           )
           self.live.append(
             user[
@@ -468,7 +466,7 @@ class MOONTON:
         )
         self.loop+=1
         print(
-          end='\r[*] Checked: %s/%s LIVE: %s - DIEE: %s '%(
+          end='\r[*] Ngecek: %s dari/%s LIVE: %s - DIEE: %s '%(
             str(
               self.loop
             ),
